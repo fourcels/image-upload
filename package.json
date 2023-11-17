@@ -1,8 +1,8 @@
 {
-  "name": "@fourcels/pro-antd-image-upload",
+  "name": "@fourcels/image-upload",
   "version": "0.1.0",
   "type": "module",
-  "description": "pro antd image upload",
+  "description": "pro components image upload",
   "main": "./dist/index.js",
   "keywords": [
     "antd",

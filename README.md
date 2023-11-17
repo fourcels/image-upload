@@ -1,3 +1,3 @@
 # ImageUpload
 
-An image upload for `antd`, `@ant-design/pro-components`
+An image upload for [@ant-design/pro-components](https://pro-components.antdigital.dev/)
