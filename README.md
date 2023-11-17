@@ -1,3 +1,3 @@
 # ImageUpload
 
-An image upload for [@ant-design/pro-components](https://pro-components.antdigital.dev/)
+[pro-components](https://pro-components.antdigital.dev/) image upload
