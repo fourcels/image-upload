@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "description": "pro components image upload",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "keywords": [
     "antd",
     "pro-components",
