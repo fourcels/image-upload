@@ -1,18 +1,38 @@
 {
-  "name": "image-upload",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@fourcels/pro-antd-image-upload",
+  "version": "0.1.0",
   "type": "module",
+  "description": "pro antd image upload",
+  "main": "./dist/index.js",
+  "keywords": [
+    "antd",
+    "pro-components",
+    "image",
+    "upload"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourcels/image-upload.git"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsup",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "homepage": "https://github.com/fourcels/image-upload",
+  "author": "kiyan <fourcels@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
+    "compressorjs": "^1.2.1"
+  },
+  "peerDependencies": {
     "@ant-design/pro-components": "^2.6.41",
     "antd": "^5.11.1",
-    "compressorjs": "^1.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -25,6 +45,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "tsup": "^7.3.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
