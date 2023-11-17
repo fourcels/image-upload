@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import { setDefaultAction } from '../lib/ImageUpload.tsx'
+import { setDefaultAction } from '../lib'
 // import './index.css'
 
 const { VITE_API_BASE_URL } = import.meta.env
